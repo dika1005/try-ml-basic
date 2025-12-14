@@ -1,7 +1,18 @@
+# Abaikan folder environment (Paling Penting!)
 venv/
+env/
+
+# Abaikan dataset gambar (Biar repo gak gendut)
 dataset/
+
+# Abaikan file sampah/cache Python & Jupyter
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Abaikan kunci rahasia
 kaggle.json
+
+# (Opsional) Abaikan model download-an manual tadi (biar gak double)
+# Tapi kalau model hasil training sendiri (yang .h5) boleh di-commit buat pamer
 mobilenet_v2_weights*.h5
